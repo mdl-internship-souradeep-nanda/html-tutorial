@@ -1,0 +1,43 @@
+<style>
+  .outer {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+  }
+
+  .wrapper {
+    display: block;
+  }
+
+  .inline-block-test {
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+
+  .inline-test {
+    display: inline;
+    width: 48%;
+  }
+
+  span {
+    border: 1px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+</style>
+
+<div class="outer">div1</div>
+<div class="outer">div1</div>
+<div class="outer inline-block-test">dsdsdsdsdsdsdsdsd dsdsdsdsdsdsdsdsd</div>
+<div class="outer inline-block-test">div1</div>
+<div class="outer inline-test">div1</div>
+<div class="outer inline-test">div1</div>
+<div class="wrapper">
+  <div class="outer inline-block-test">dsdsdsdsdsdsdsdsd dsdsdsdsdsdsd</div>
+  <div class="outer inline-block-test">div1</div>
+</div>
+<span>span1</span>
+<span>span1</span>
